@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import utils.AppiumDriverEx;
 import java.time.Duration;
 
-public class SetValues {
+public class LoginPage {
 
     public static void main(String[] args) {
 

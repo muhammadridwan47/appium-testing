@@ -44,9 +44,15 @@ Making first project with java + Appium:
 
         
        3. to Enter in device emulator or real
-        - adb -s emulator-5554 shell
-        - dumpsys window | grep -E 'mCurrentFocus’  // to see activity running <br/>
-        <img width="576" alt="Screenshot 2023-03-11 at 15 43 07" src="https://user-images.githubusercontent.com/69374541/224508401-4ef560c4-03e4-4558-bac5-79ae700c2f95.png">
+        
+       ```
+       adb -s emulator-5554 shell
+       ``` 
+       ```
+       dumpsys window | grep -E 'mCurrentFocus'  // to see activity running 
+       ``` 
+   
+      <img width="576" alt="Screenshot 2023-03-11 at 15 43 07" src="https://user-images.githubusercontent.com/69374541/224508401-4ef560c4-03e4-4558-bac5-79ae700c2f95.png">
 
 
         
